@@ -1,0 +1,28 @@
+
+[34m========================================[0m
+[34m  Web Server Process Manager Demo  [0m
+[34m========================================[0m
+
+[32m[1721] ✓ Signal handlers configured[0m
+
+[33m--- Creating Child Processes ---[0m
+
+[33m[Parent] Created child 0 with PID 1722[0m
+[34m[Child 1 - PID 1723] Started[0m
+[32m[Child 1 - PID 1723] Processing request (1 seconds)[0m
+[32m[Child 1 - PID 1723] Request completed successfully[0m
+
+[33m--- Creating Child Processes ---[0m
+
+[33m[Parent] Created child 0 with PID 1722[0m
+[33m[Parent] Created child 1 with PID 1723[0m
+[33m[Parent] Created child 2 with PID 1724[0m
+[34m[Child 3 - PID 1725] Started[0m
+[32m[Child 3 - PID 1725] Processing request (1 seconds)[0m
+[32m[Child 3 - PID 1725] Request completed successfully[0m
+
+[33m--- Creating Child Processes ---[0m
+
+[34m[Child 0 - PID 1722] Started[0m
+[32m[Child 0 - PID 1722] Processing request (2 seconds)[0m
+[32m[Child 0 - PID 1722] Request completed successfully[0m

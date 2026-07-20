@@ -1,0 +1,67 @@
+
+=== Process Manager Demo ===
+
+Creating 5 child processes...
+
+[Child 0 - PID 1843] Started
+[Child 0 - PID 1843] Working for 1 seconds
+[Child 0 - PID 1843] Completed
+
+=== Process Manager Demo ===
+
+Creating 5 child processes...
+
+[Parent] Created child 0 with PID 1843
+[Child 1 - PID 1844] Started
+[Child 1 - PID 1844] Working for 3 seconds
+[Child 1 - PID 1844] Completed
+
+=== Process Manager Demo ===
+
+Creating 5 child processes...
+
+[Parent] Created child 0 with PID 1843
+[Parent] Created child 1 with PID 1844
+[Parent] Created child 2 with PID 1845
+[Child 3 - PID 1846] Started
+[Child 3 - PID 1846] Working for 3 seconds
+[Child 3 - PID 1846] Completed
+
+=== Process Manager Demo ===
+
+Creating 5 child processes...
+
+[Parent] Created child 0 with PID 1843
+[Parent] Created child 1 with PID 1844
+[Parent] Created child 2 with PID 1845
+[Parent] Created child 3 with PID 1846
+[Parent] Created child 4 with PID 1847
+
+Monitoring children (timeout: 5 seconds)...
+
+[Parent] Monitoring loop 1 - checking children...
+[Parent] Monitoring loop 2 - checking children...
+[Parent] Child PID 1843 exited (status: 0)
+[Parent] Monitoring loop 3 - checking children...
+[Parent] Monitoring loop 4 - checking children...
+[Parent] Child PID 1844 exited (status: 0)
+[Parent] Child PID 1846 exited (status: 0)
+[Parent] Monitoring loop 5 - checking children...
+[Parent] Monitoring loop 6 - checking children...
+[Parent] Monitoring loop 7 - checking children...
+[Parent] Child PID 1845 unresponsive (6 sec). Killing...
+[Parent] Sending SIGKILL to PID 1845
+[Parent] Child PID 1845 terminated
+[Parent] Child PID 1847 unresponsive (6 sec). Killing...
+[Parent] Sending SIGKILL to PID 1847
+[Parent] Child PID 1847 terminated
+
+=== Summary ===
+Child 0 (PID 1843): Done
+Child 1 (PID 1844): Done
+Child 2 (PID 1845): Done
+Child 3 (PID 1846): Done
+Child 4 (PID 1847): Done
+
+Program completed!
+
