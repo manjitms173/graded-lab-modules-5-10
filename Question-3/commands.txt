@@ -1,0 +1,5 @@
+gcc -o employee_manager employee_manager.c
+./employee_manager
+gcc -o test_read test_read.c
+./test_read
+ls -lh employee_records.dat

@@ -1,0 +1,152 @@
+
+╔════════════════════════════════════════╗
+║   Employee Record Management System   ║
+║   Using Low-Level System Calls        ║
+╚════════════════════════════════════════╝
+
+STEP 1: Creating file...
+----------------------------------------
+✓ File created successfully: employee_records.dat
+  File descriptor: 3
+  Permissions: 0644 (rw-r--r--)
+
+STEP 2: Writing employee records...
+----------------------------------------
+✓ Record written successfully
+  ID: 101
+  Name: Alice Johnson
+  Department: Engineering
+  Salary: $75000.00
+  Bytes written: 104
+
+✓ Record written successfully
+  ID: 102
+  Name: Bob Smith
+  Department: Marketing
+  Salary: $65000.00
+  Bytes written: 104
+
+✓ Record written successfully
+  ID: 103
+  Name: Carol White
+  Department: HR
+  Salary: $60000.00
+  Bytes written: 104
+
+✓ Record written successfully
+  ID: 104
+  Name: David Brown
+  Department: Finance
+  Salary: $70000.00
+  Bytes written: 104
+
+✓ Record written successfully
+  ID: 105
+  Name: Eve Davis
+  Department: Engineering
+  Salary: $80000.00
+  Bytes written: 104
+
+
+========================================
+           FILE INFORMATION             
+========================================
+
+Filename: employee_records.dat
+File size: 520 bytes
+Record size: 104 bytes
+Total records: 5
+Permissions: 644
+
+
+========================================
+         ALL EMPLOYEE RECORDS           
+========================================
+
+Record #0:
+  ID: 101
+  Name: Alice Johnson
+  Department: Engineering
+  Salary: $75000.00
+
+Record #1:
+  ID: 102
+  Name: Bob Smith
+  Department: Marketing
+  Salary: $65000.00
+
+Record #2:
+  ID: 103
+  Name: Carol White
+  Department: HR
+  Salary: $60000.00
+
+Record #3:
+  ID: 104
+  Name: David Brown
+  Department: Finance
+  Salary: $70000.00
+
+Record #4:
+  ID: 105
+  Name: Eve Davis
+  Department: Engineering
+  Salary: $80000.00
+
+STEP 3: Updating record #2 (Carol White)...
+----------------------------------------
+✓ File pointer positioned at offset: 208
+✓ Record #2 updated successfully
+  New Name: Carol White-Miller
+  New Salary: $65000.00
+
+STEP 4: Retrieving record #2...
+----------------------------------------
+✓ Record retrieved successfully:
+  ID: 103
+  Name: Carol White-Miller
+  Department: HR
+  Salary: $65000.00
+
+STEP 5: Displaying all records after update...
+----------------------------------------
+
+========================================
+         ALL EMPLOYEE RECORDS           
+========================================
+
+Record #0:
+  ID: 101
+  Name: Alice Johnson
+  Department: Engineering
+  Salary: $75000.00
+
+Record #1:
+  ID: 102
+  Name: Bob Smith
+  Department: Marketing
+  Salary: $65000.00
+
+Record #2:
+  ID: 103
+  Name: Carol White-Miller
+  Department: HR
+  Salary: $65000.00
+
+Record #3:
+  ID: 104
+  Name: David Brown
+  Department: Finance
+  Salary: $70000.00
+
+Record #4:
+  ID: 105
+  Name: Eve Davis
+  Department: Engineering
+  Salary: $80000.00
+
+
+╔════════════════════════════════════════╗
+║        Program Completed Successfully  ║
+╚════════════════════════════════════════╝
+
