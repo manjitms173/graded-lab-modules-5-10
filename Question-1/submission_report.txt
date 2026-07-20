@@ -1,0 +1,50 @@
+==========================================
+  SUBMISSION ANALYSIS REPORT
+==========================================
+
+Report Generated: 2026-07-20 21:08:43
+Submission Directory: submissions
+Backup Directory: backup_unique_submissions
+
+==========================================
+  SUMMARY STATISTICS
+==========================================
+
+Total Files Processed:        10
+Unique Submissions Found:     6
+Duplicate Submissions Found:  4
+Files Backed Up:              6
+Errors Encountered:           0
+
+==========================================
+  DUPLICATE ANALYSIS
+==========================================
+
+Duplicate Rate: 40.00%
+
+Action Taken: Duplicates were identified but not backed up.
+Only unique submissions were copied to backup directory.
+
+==========================================
+  FILE LISTING - BACKED UP FILES
+==========================================
+
+-rw-r--r-- 1 coder coder 47 Jul 20 21:08 student_003_assignment.txt
+-rw-r--r-- 1 coder coder 45 Jul 20 21:08 student_004_assignment.txt
+-rw-r--r-- 1 coder coder 48 Jul 20 21:08 student_005_assignment.txt
+-rw-r--r-- 1 coder coder 46 Jul 20 21:08 student_006_assignment.txt
+-rw-r--r-- 1 coder coder 49 Jul 20 21:08 student_008_assignment.txt
+-rw-r--r-- 1 coder coder 45 Jul 20 21:08 student_009_assignment.txt
+
+==========================================
+  BACKUP VERIFICATION
+==========================================
+
+Backup Directory Size: 28K
+Number of Files in Backup: 6
+
+No errors encountered during processing.
+
+==========================================
+  END OF REPORT
+==========================================
