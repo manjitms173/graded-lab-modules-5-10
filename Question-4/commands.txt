@@ -1,0 +1,20 @@
+# Question-4 Commands
+
+# Run main monitor
+./log_monitor.sh
+
+# Run advanced demo
+./advanced_pipeline.sh
+
+# Run tests
+./test_monitor.sh
+
+# View results
+cat error_report.txt
+cat system.log
+
+# Manual monitoring
+tail -f system.log | grep 'ERROR' | tee error_report.txt
+
+# Clean up
+rm -f system.log error_report.txt outputs/*
